@@ -1,0 +1,10 @@
+product: jvm/app
+
+dependencies:
+  - org.springframework.boot:spring-boot-starter-web:3.4.2
+#  - com.fasterxml.jackson.module:jackson-module-kotlin
+#  - org.jetbrains.kotlin:kotlin-reflect
+
+settings:
+  kotlin:
+    freeCompilerArgs: [ -Xjsr305=strict ]
